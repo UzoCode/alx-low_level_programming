@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-/* add more header here */
 #include <stdio.h>
-/* betty style doc for main function here */
+
 /**
  * main - main function
- *
  * Return: always 0
  */
 
