@@ -4,7 +4,8 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ *
+ * Return: Always 0
  */
 
 int main(void)
@@ -13,17 +14,14 @@ int main(void)
 
 	srand(time(0));
 	n = rand() -  RAND_MAX / 2;
+	/* Then your code follows */
 	if (n > 0)
-
-		printf("%d, Positive\n, n");
-
+		printf("%d, is Positive", n);
 	else if (n == 0)
-
-		printf("%d, zero\n", n);
-
+		printf("%d, is zero", n);
 	else
-		printf("%d, negative\n", n);
-
+		printf("%d, is negative", n);
+	printf("\n");
 	return (0);
 
 }
