@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - main function
- * Return: always 0
+ * main - program will assign a random number to the variable
+ * Return: Always 0
  */
 
 int main(void)
