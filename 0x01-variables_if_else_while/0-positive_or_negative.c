@@ -1,25 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* return: It will return 0 always*/
-/* main - Refers to main function*/
+
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
+	int n;
+
 	srand(time(0));
-	int n = rand() % (2 * % RAND_MAX) - RAND_MAX;
-
-	printf("The number %d", n);
-
+	n = rand() -  RAND_MAX / 2;
 	if (n > 0)
 
-		printf("Positive\n");
+		printf("%d, Positive\n, n");
 
 	else if (n == 0)
 
-		printf("zero\n");
+		printf("%d, zero\n", n);
 
 	else
-		printf("negative\n");
+		printf("%d, negative\n", n);
 
 	return (0);
 
