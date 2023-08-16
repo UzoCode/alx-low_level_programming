@@ -2,7 +2,8 @@
 
 /**
  * _abs - Absolut value of an integer
- * @int: value being check
+ * @num: value being check
+ *
  * Return: 0 for int
  */
 int _abs(int num)
