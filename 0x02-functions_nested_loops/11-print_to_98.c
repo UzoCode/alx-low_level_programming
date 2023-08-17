@@ -1,29 +1,31 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * print_to_98 - prints the number in order
- * @n: checks for ordered numbers
- * Result: 0
+ * print_to_98 - prints natural numbers starting from n to 98, then a new line
+ * @n: prints beginnine from n
  */
 void print_to_98(int n)
 {
-	int i, j;
+	int a, b;
 
 	if (n <= 98)
 	{
-		for (i = n; i <= 98; i++)
+		for (a = n; a <= 98; a++)
 		{
-			if (i != 98 || i == 98)
-				printf("%d\n", i);
+			if (a != 98)
+				printf("%d, ", a);
+			else if (a == 98)
+				printf("%d\n", a);
 		}
 	} else if (n >= 98)
 	{
-		for (j = n; j >= 98; j--)
+		for (b = n; b >= 98; b--)
 		{
-			if (j != 98 || j == 98)
-				printf("%d, ", j);
+			if (b != 98)
+				printf("%d, ", b);
+			else if (b == 98)
+				printf("%d\n", b);
 		}
 	}
-	_putchar('\n');
 }
