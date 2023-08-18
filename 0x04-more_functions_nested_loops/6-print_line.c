@@ -2,7 +2,7 @@
 
 /**
  * print_line - prints lines in terminal
- * @n: is the numbers times the character
+ * @n: is number times the character
  */
 void print_line(int n)
 {
