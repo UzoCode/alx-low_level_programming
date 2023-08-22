@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - program generates radom
- * valid password for program 101-crackme
- * Return: Alwys 0
+ * main - program generates random
+ * valid password for program 101 crackme
+ * Return: generate password
  */
 int main(void)
 {
@@ -30,4 +30,6 @@ int main(void)
 			break;
 		}
 	}
+
+	return (0);
 }
