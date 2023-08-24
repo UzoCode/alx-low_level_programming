@@ -27,7 +27,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	while (b >= 0)
 	{
 		o = d1 + d2 + add;
-		if (o >= 10)
+		if (o > 10)
 			add = o / 10;
 		else
 			add = 0;
