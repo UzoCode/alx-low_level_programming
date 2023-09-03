@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all arguments 
- * @argc: arguments One 
+ * main - prints all arguments
+ * @argc: arguments One
  * @argv: argument two
  * Return: None
  */
