@@ -1,10 +1,19 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-int _abs(int n)
+/**
+ * _abs - Absolut value of an integer
+ * @num: value being check
+ *
+ * Return: 0 for int
+ */
+int _abs(int num)
 {
-    return abs(n);
+	if (num < 0)
+	{
+		return (-num);
+	}
+	else
+	{
+		return (num);
+	}
 }

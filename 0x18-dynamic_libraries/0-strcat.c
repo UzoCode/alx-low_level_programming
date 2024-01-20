@@ -1,10 +1,26 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
+/**
+ * _strcat - concatenates two string
+ * @dest: string concatenated
+ * @src: Another string concatenated
+ * Return: Always 0
+ */
 char *_strcat(char *dest, char *src)
 {
-    return strcat(dest, src);
+	int a = 0, b = 0;
+
+	while (*(dest + a) != '\0')
+	{
+		a++;
+	}
+	while (b >= 0)
+	{
+		*(dest + a) = *(src + b);
+		if (*(src + b) == '\0')
+			break;
+		a++;
+		b++;
+	}
+	return (dest);
 }
